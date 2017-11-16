@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+%%=========== PROBLEM ${1:#} ============= UNFINISHED ============%%${2:
+\begin{problem\}${3:[${4:}]
+${5:}
+\end{problem\}
+
+
+\pagebreak}}
+]]></content>
+	<tabTrigger>problem</tabTrigger>
+	<!-- <scope>text.latex</scope> -->
+</snippet>

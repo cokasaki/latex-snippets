@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+\begin{tabular}{$1}
+\end{tabular}
+]]></content>
+    <tabTrigger>tabular</tabTrigger>
+    <!-- <scope>text.latex</scope> -->
+</snippet>

@@ -1,0 +1,83 @@
+<snippet>
+    <content><![CDATA[
+\documentclass{beamer} 
+
+\usetheme{Madrid} 
+
+\usepackage{color} % It may be necessary to set PCTeX or whatever program you are using to output a .pdf instead of a .dvi file in order to see color on your screen.
+\usepackage{graphicx} % This package is needed if you wish to include external image files.
+
+\usepackage{mathtools}
+\usepackage{units}
+\usepackage{tikz}
+\usepackage{color}
+
+\title{${1:}}
+\author{${2:Colin Okasaki}} 
+\institute{${3:Harvey Mudd College}}
+\date{${4:}} 
+
+\AtBeginSection[]  
+{
+\begin{frame} 
+\frametitle{Presentation Outline} 
+\tableofcontents[currentsection]  
+\end{frame}
+} 
+
+\begin{document}
+
+\begin{frame} 
+\titlepage
+\end{frame}
+
+
+%%---------------------------------------------%%
+
+\section{}
+
+\begin{frame}
+\frametitle{}
+
+
+\end{frame}
+
+%%---------------------------------------------%%
+
+\begin{frame}
+\frametitle{References}
+
+\bibliography{${5:}}{}
+\bibliographystyle{${6:plain}}
+
+\end{frame}
+
+%%---------------------------------------------%%
+
+\begin{frame}
+\frametitle{Acknowledgements}
+
+\begin{itemize}
+\item 
+\end{itemize}
+
+\end{frame}
+
+%%---------------------------------------------%%
+
+\begin{frame}
+\frametitle{Questions?}
+
+\begin{center}
+{\Huge Questions?}
+\end{center}
+
+\end{frame}
+
+
+\end{document}
+
+]]></content>
+    <tabTrigger>presentation</tabTrigger>
+    <!-- <scope>text.latex</scope> -->
+</snippet>

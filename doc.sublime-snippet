@@ -1,0 +1,34 @@
+<snippet>
+    <content><![CDATA[
+\documentclass[letter, 12pt]{article}
+\usepackage[tmargin=1in,lmargin=1in,rmargin=1in,bmargin=1in,paper=letterpaper]{geometry}
+
+% -------------------------------------------------------------
+\usepackage{mathtools}
+\usepackage{mathrsfs}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{enumerate}
+\setlength{\parindent}{0pt}
+
+\input{mypreamble}
+% -------------------------------------------------------------
+% END OF PACKAGES LOADED
+
+
+\title{${1:title}}
+\author{${2:Colin Okasaki}}
+
+\begin{document}
+\maketitle
+
+${2:}
+
+
+\pagebreak
+
+\end{document}
+]]></content>
+    <tabTrigger>doc</tabTrigger>
+    <!-- <scope>text.latex</scope> -->
+</snippet>

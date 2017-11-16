@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\begin{enumerate}[(a)]
+\item ${1:}
+\end{enumerate}
+]]></content>
+	<tabTrigger>alist</tabTrigger>
+	<!-- <scope>text.latex</scope> -->
+</snippet>
